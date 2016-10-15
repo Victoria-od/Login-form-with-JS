@@ -1,0 +1,121 @@
+body{
+width:100%;
+font-family: 'Open Sans', sans-serif;
+background-color:#ebebeb;
+}
+
+
+.conteiner{
+/*position:relative;*/
+margin:54px auto auto;
+position:relative;
+width:100%;
+max-width:425px;
+height:350px;
+position:relative;
+background-image:url("../img/1.png");
+width:100%;	
+background-color:#fff;
+border:none;
+border-radius:6px;	
+z-index:2;
+}
+
+.pop-up{
+position:absolute;
+width:100%;
+height:100%;	
+padding:48px 76px 30px 43px;
+/*background-image:("../img/shadow.png");
+z-index:3;*/
+}
+
+
+ul{
+list-style:none;
+font-size:0;	
+}
+
+li{
+font-size:12px;
+color:#fff;
+font-weight:400;
+line-height:1.5;	
+}
+h1{
+text-transform:uppercase;
+font-size:40px;
+font-weight:600;
+color:#fff;
+line-height:0;
+}
+.text{
+margin-top:8px;
+color:#fff;	
+font-size:12px;
+}
+
+button{
+text-transform:uppercase;
+width:101px;
+height:40px;
+/*background-image:url("../img/button.png");*/
+  background-image: -moz-linear-gradient( 90deg, rgb(66,126,199) 16%, rgb(81,142,226) 64%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(66,126,199) 16%, rgb(81,142,226) 64%);
+  background-image: -ms-linear-gradient( 90deg, rgb(66,126,199) 16%, rgb(81,142,226) 64%);
+  box-shadow: 0.5px 0.866px 2px 0px rgba(0, 0, 0, 0.75);
+border:none;
+border-radius:6px;
+color:#fff;
+font-weight:600;
+box-shadow: 1px 1px #000;
+/*box-shadow: 1px 1px rgba (0, 0, 0, .8);*/
+margin-top:15px;
+cursor:pointer;
+}
+
+button:focus{
+border:none;	
+}
+
+.form{
+background-color:#1e4f8a;
+margin-left:33px;
+padding-left:8px;
+border:1px solid #0d2c52;
+height:38px;
+width:212px;
+margin-bottom:10px;	
+color:#fff;
+font-size:14px;
+}
+.password{
+background-color:#1e4f8a;
+margin-left:13px;
+padding-left:8px;
+border:1px solid #0d2c52;
+height:38px;
+width:212px;
+margin-bottom:10px;	
+color:#fff;
+font-size:14px;
+}
+
+/*.password:active,
+.password:hover {
+border:none;
+background-color:rgba(0, 0, 0, .0);	
+color:#fff;
+}*/
+
+
+a{
+text-decoration:none;
+color:#efefef;	
+margin-left:22px;
+}
+.checkbox{
+/*vertical-align:baseline;*/
+vertical-align:middle;
+margin-left:70px;
+}
