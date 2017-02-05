@@ -2,29 +2,61 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+	<title>Login Form</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery-1.12.1.min.js"></script>
+	<script src="js/script.js"></script>
 </head>
 <body>
-	<div class="conteiner">
-	<div class="pop-up">
-				<h1>login</h1>
-				<div class="text"><p>Lorem Ipsum is simply dummy text of the printing and<br>
-				typesetting industry.</p></div>
-				<ul><label><form action="" method="post" autocomplete="on">
-				<li>Email:<input type="mailto:" class="form"></li>
-				<li>Password<input type="password" class="password"></li>
-				<li><input type="checkbox" class="checkbox">Remember Me<a href="#">Forgot password?</a></li>
-				<li><button>login</button></li>
-				</label>
-				</ul>
-				<!--<div class="mask"><img src="img/shadow.png"></div>-->
+	<div class="container">
+		<div class="pop-up">
+			<h1>Login Form</h1>
+			<p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			<div class="error-msg"></div>
+			<form method="post" autocomplete="on">
+				<div class="field">
+					<div class="left">
+						<span>Username:</span>
+					</div>
+					<div class="right">
+						<input  id="user-name" class="full validate" type="text" name="login">
+					</div>
 				</div>
-		
-		<p>Text</p>
-				
-
+				<div class="field">
+					<div class="left">
+						<span>Email:</span>
+					</div>
+					<div class="right">
+						<input  id="user-email" class="full validate" type="text" name="mail">
+					</div>
+				</div>
+				<div class="field">
+					<div class="left">
+						<span>Password:</span>
+					</div>
+					<div class="right">
+						<input id="user-password" class="full validate" type="password" name="pass">
+					</div>
+				</div>
+				<div class="field">
+					<div class="left"></div>
+					<div class="right">
+						<label for="remember-me">
+							<input type="checkbox" id="remember-me" name="rememberme" value="1">
+							Remember me
+						</label>
+						<a class="forgot_password" href="#">Forgot password?</a>
+					</div>
+				</div>
+				<div class="field">
+					<div class="left"></div>
+					<div class="right">
+						<button id ="submit-login" class="submit" type="submit">Login</button>
+					</div>
+				</div>
+			</form>
+		</div>
 	</div>
 </body>
 </html>
